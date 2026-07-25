@@ -806,6 +806,65 @@
               </a>
             </div>
           </article>
+
+          <!-- Spy -->
+          <article class="game-card reveal" tabindex="0" aria-label="ჯაშუში">
+            <div class="poster" aria-hidden="true">
+              <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="sp-bg" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#080b16"/>
+                    <stop offset=".55" stop-color="#241b57"/>
+                    <stop offset="1" stop-color="#4338ca"/>
+                  </linearGradient>
+                  <radialGradient id="sp-glow">
+                    <stop offset="0" stop-color="#c7d2fe" stop-opacity=".9"/>
+                    <stop offset=".4" stop-color="#818cf8" stop-opacity=".45"/>
+                    <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+                  </radialGradient>
+                  <linearGradient id="sp-lens" x1="0" y1="0" x2="1" y2="1">
+                    <stop stop-color="#a5b4fc" stop-opacity=".85"/>
+                    <stop offset="1" stop-color="#6366f1" stop-opacity=".55"/>
+                  </linearGradient>
+                </defs>
+                <rect width="1200" height="800" fill="url(#sp-bg)"/>
+                <circle cx="470" cy="300" r="360" fill="url(#sp-glow)"/>
+                <g fill="#fff" opacity=".7">
+                  <circle cx="180" cy="130" r="4"/><circle cx="300" cy="220" r="3"/><circle cx="980" cy="180" r="4"/>
+                  <circle cx="1080" cy="330" r="3"/><circle cx="860" cy="90" r="2"/><circle cx="150" cy="420" r="3"/>
+                </g>
+                <path d="M0 660c190-70 360-55 540-15 240 55 430 35 660-40v195H0Z" fill="#070a15" opacity=".8"/>
+                <g transform="translate(360 150)" fill="#0b0f1e">
+                  <path d="M60 430c0-120 70-190 160-190s160 70 160 190Z"/>
+                  <circle cx="220" cy="180" r="72"/>
+                  <ellipse cx="220" cy="118" rx="140" ry="30"/>
+                  <path d="M150 120c0-52 30-84 70-84s70 32 70 84Z"/>
+                  <rect x="150" y="96" width="140" height="18" rx="9" fill="#4338ca"/>
+                </g>
+                <g transform="translate(690 360) rotate(20)">
+                  <circle cx="0" cy="0" r="120" fill="url(#sp-lens)" stroke="#e0e7ff" stroke-width="16"/>
+                  <circle cx="0" cy="0" r="120" fill="none" stroke="#312e81" stroke-width="4" opacity=".6"/>
+                  <path d="M92 92l120 120" stroke="#e0e7ff" stroke-width="42" stroke-linecap="round"/>
+                  <path d="M92 92l120 120" stroke="#c7d2fe" stroke-width="18" stroke-linecap="round"/>
+                  <path d="M-55 -30a70 70 0 0 1 40 -40" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+                </g>
+              </svg>
+            </div>
+            <span class="tag">ბლეფი და დედუქცია</span>
+            <h3 class="poster-title">ჯაშუში</h3>
+            <div class="bottom-info">
+              <span>იპოვე ჯაშუში ან გამოიცანი სიტყვა</span>
+              <span class="status">ონლაინ</span>
+            </div>
+            <div class="play-overlay">
+              <a class="start-btn" href="https://imed458.github.io/Spy/" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="m9 7 8 5-8 5V7Z" fill="currentColor"/>
+                </svg>
+                თამაშის დაწყება
+              </a>
+            </div>
+          </article>
         </div>
 
         <p class="tap-hint">ტელეფონზე: ჯერ შეეხე ბარათს, შემდეგ დააჭირე ღილაკს.</p>
